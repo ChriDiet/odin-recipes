@@ -13,7 +13,8 @@ h2 {
 }
 
  .logo {
-   max-width: 60%;
+   width: 70%;
+   max-width: 70%;
    height: 200;
    display: block;
    margin: auto;
@@ -33,7 +34,7 @@ h2 {
 
 .link {  
    font-family: "Josefin sans", Verdana, sans-serif;
-   font-size: 3vw;
+   font-size: 2.5vw;
    background-color: #d47078d7;
    color: #000000;
    border:none;
@@ -41,12 +42,13 @@ h2 {
    border-radius: 15px;
    display: block;
    margin: auto;
-   width: 30%;
-   max-width: 60%px;
+   width: 20%;
+   max-width: 40%px;
+   max-height: 30px;
    margin-top: 15px; 
    cursor:pointer;
    text-decoration: none;
-   text-align: center;
+   text-align:center;
    transition-duration: 0.5s;
 }
 
@@ -57,4 +59,6 @@ h2 {
    border-radius: 20px;
    padding-bottom: 70px;
    background: linear-gradient(#d47078aa, #d4707872,#d47078aa);
+   display: block;
+   max-height: 600px;
 }
