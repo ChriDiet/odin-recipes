@@ -1,13 +1,10 @@
 
 
 .link:hover {
-   background-color: #ebf8e176;
+   background-color: #ebf8e14f;
    color:#000000;
    font-weight: 500;
-   font-size: 3.6vw;
    transition-duration: 0.4s;
-   text-decoration: underline;
-   transition-duration: text-decoration 2s ease;
    
 }
 
@@ -31,11 +28,11 @@ h2 {
    left: 30; 
    z-index: 50;
    font-size: 17px;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Josefin sans', Verdana, sans-serif;
  }
 
 .link {  
-   font-family: "Josefin sans", Arial, sans-serif;
+   font-family: "Josefin sans", Verdana, sans-serif;
    font-size: 3vw;
    background-color: #d47078d7;
    color: #000000;
@@ -54,9 +51,10 @@ h2 {
 }
 
 .border {
+   margin: 40px;
    border: 3px black;
    border-style:solid;
    border-radius: 20px;
    padding-bottom: 70px;
-   background: linear-gradient(#d47078aa, #d4707891,#d47078aa);
+   background: linear-gradient(#d47078aa, #d4707872,#d47078aa);
 }
